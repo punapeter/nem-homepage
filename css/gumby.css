@@ -1751,7 +1751,7 @@ i.icon-down-open-big { margin: 0; }
 
 .headline svg { max-height: 490px !important; }
 
-.laptop { text-align: left; padding-left: 0px; margin-top: 70px; margin-bottom: 45px; z-index: -11111; }
+.laptop { text-align: left; padding-left: 0px; margin-top: 70px; z-index: -11111; }
 
 .laptop img { position: relative; right: -45%; opacity: 1; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; -o-transition-timing-function: ease-out; transition-timing-function: ease-out; }
 
