@@ -35,10 +35,10 @@
       "nisApi": "<a href=\"http://bob.nem.ninja/docs/\">NIS API</a>"
    },
    "READ-Translators2": "Anything that is closed in brackets, such as '</a>', '<>', '</span>' below this message, should NOT be translated. For example, if you were translating this sentence, do not translate '<span>', but still translate the bold <span>TEXT INSIDE THESE TWO SPAN TAGS</span>",
-   "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.1)'",
+   "READ-Translators3": "Do not translate anything that starts with '$', looks like this '$t(a.1)' or this '$t(s.java)'",
 
    "app": {
-      "now": "GET NEM HERE",
+      "now": "GET XEM HERE",
       "coming": "COMING SOON",
       "tut": "tutorial",
       "ninth": "9",
@@ -50,7 +50,7 @@
    "nav":{
       "client": "CLIENT",
       "buy": "BUY XEM",
-      "newsletter": "NEWSLETTER",
+      "blog": "BLOG",
       "faq": "FAQ's",
       "tech": "<span>DEVELOPER $t(a.i)</span>",
       "update": "UPDATES",
@@ -67,12 +67,6 @@
       "about2": "Install the NEM Mobile Client, it has all the core NEM features, with ease of use in mind.",
       "click2": "COMING SOON"
    },
-   "stats":{
-      "nis": "NIS Online",
-      "acc": "accounts in use",
-      "dorm": "accounts that are dormant",
-      "avg": "NEM in accounts"
-   },
    "buy":{
       "header": "How to get XEM?",
       "box1": "XEM will be available at BITTREX shortly after launch",
@@ -83,17 +77,6 @@
       "box3click": "$t(app.coming)",
       "help": "Need help with purchasing XEM? $t(a.3) <span> learn more here</span></a>",
       "help2": "Need help with purchasing XEM? $t(a.3) <span><br>learn more here</span></a>"
-   },
-   "faq":{
-      "header": "Still need help?",
-      "readfaq": "Read the in depth FAQ Section",
-      "readfaq2": "Read the in depth FAQ Section",
-      "irc": "Chat live with a developer on IRC",
-      "irc2": "Chat with a developer on IRC",
-      "forum": "Learn more about NEM through our large community on our Forum",
-      "forum2": "Talk to fellow NEMbers on our Forum.",
-      "wiki": "Visit the Wiki for in-depth details about every aspect of NEM",
-      "wiki2": "Visit the Wiki for all things NEM"
    },
    "footer":{
       "logotext": "NEM is a movement to create a new economy based on the principles of decentralization, financial freedom, and equality of opportunity.",

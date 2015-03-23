@@ -12,7 +12,7 @@ $.i18n.init({
 		<!-- OURNEM HOMEPAGE -->
 		$('#navclient').text($.t('nav.client'));
 		$('#navbuy').text($.t('nav.buy'));
-		$('#newsletter').text($.t('nav.newsletter'));
+		$('#blog').text($.t('nav.blog'));
 		$('#navfaq').text($.t('nav.faq'));
 		$('#navtech').text($.t('nav.tech'));
 		$('#navupdate').text($.t('nav.update'));

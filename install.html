@@ -36,9 +36,6 @@
       <meta itemprop="description" content="">
       <meta itemprop="image" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-      <!-- Odometer includes -->
-      <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
-      <script src="http://github.hubspot.com/odometer/odometer.js"></script>
       <!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
          However, there is a blank style.css in the css directory should you prefer -->
       <link rel="stylesheet" href="css/gumby.css">
@@ -54,9 +51,9 @@
       </script>
    </head>
    <body>
-      <div class="top parallax parallaxTop"  gumby-parallax=".53">
+      <div class="top parallax parallaxTopFAQ"  gumby-parallax=".53">
 
-         <section id="mainTop">
+         <section id="mainArchive">
 
             <nav gumby-fixed="250">
                <div class="row navbar" id="nav1">
@@ -91,16 +88,27 @@
 
             <div class="row">
                  <section class="six columns centered">
-                   <div class="headline">
-<h2 class="pageComingSoonH2">THIS PAGE IS</h2>
-<h1 class="pageComingSoonH1">COMING SOON</h1>
+                   <div class="headlineArchive">
+<h1 class="pageArchiveH1">NEWSLETTERS</h1>
                  </div>
                  </section>
             </div>
          </section>
       </div>
 
-      <div class="parallax parallax3" gumby-parallax=".5" data-target="newsFeed">
+      <div class="parallax parallax4" gumby-parallax=".7">
+         <div class="overflowHide">
+            <div class="headingArchive">
+<div id="jsonp-results">
+
+</div>
+
+
+            </div>
+</div>
+</div>
+
+         <div class="parallax parallax3" gumby-parallax=".5">
          <div class="row mainClientWrap">
             <section class="box1">
                <div>
@@ -217,6 +225,26 @@
       <script src="js/_custom.js"></script>
       <script src="bower_components/gumby/js/plugins.js"></script>
       <script src="bower_components/gumby/js/main.js"></script>
+      <script>
+      // GET VERSION # START
+      $.ajax({
+         type: 'GET',
+         url: 'http://www.blogoola.com/data/destinations.json',
+         async: false,
+         jsonpCallback: 'jsonCallback',
+         contentType: "application/json",
+         dataType: 'jsonp',
+         success: function(data)
+         {
+            $('#jsonp-results').html(JSON.stringify(data));
+            console.log(json);
+         },
+         error: function(e)
+         {
+            alert(e.message);
+         }
+      });
+      </script>
       <!-- Change UA-XXXXX-X to be your site's ID -->
       <!--<script>
          window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
