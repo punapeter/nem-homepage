@@ -87,7 +87,7 @@
             <div class="row">
                  <section class="six columns centered">
                    <div class="headlineArchive">
-<h1 class="pageArchiveH1">NEWSLETTERS</h1>
+<h1 class="pageArchiveH1">COMING SOON</h1>
                  </div>
                  </section>
             </div>
@@ -97,10 +97,13 @@
       <div class="parallax parallax4" gumby-parallax=".7">
          <div class="overflowHide">
             <div class="headingArchive">
-<div id="jsonp-results">
+<!-- <div id="jsonp-results">
 
 </div>
+<div id="images">
 
+</div>
+<pre id="results"></pre> -->
 
             </div>
 </div>
@@ -225,24 +228,51 @@
       <script src="bower_components/gumby/js/main.js"></script>
       <script>
       // GET VERSION # START
-      $.ajax({
-         type: 'GET',
-         url: 'http://www.blogoola.com/data/destinations.json',
-         async: false,
-         jsonpCallback: 'jsonCallback',
-         contentType: "application/json",
-         dataType: 'jsonp',
-         success: function(data)
-         {
-            $('#jsonp-results').html(JSON.stringify(data));
-            console.log(json);
-         },
-         error: function(e)
-         {
-            alert(e.message);
-         }
-      });
+      var url = "http://20percents.com/created_by_mohan/testAll.php?"
+      , data = {"fields":"titles"}
+      , results = $("#results")
+      , request = function(url, data) {
+        results.text("requesting " + data.fields + "...");
+      return $.getJSON("https://query.yahooapis.com/v1/public/yql?q="
+        + "select title from json where url='" + url + $.param(data) +"'"
+        + "&format=json&callback=")
+      };
+      request(url, data)
+      .then(function(data) {
+        console.log(data)
+        results.text(JSON.stringify(data.query.results.json.data, null, 4))
+      }, function(err) {
+        console.log(err)
+      })
       </script>
+
+      <script>
+$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+  {
+    tags: "json",
+    tagmode: "any",
+    format: "json"
+  },
+  function(data) {
+    $.each(data.items, function(i,item){
+      $("<img />").attr("src", item.media.m).appendTo("#images");
+      if ( i == 0 ) return false;
+    });
+  });</script>
+
+  <script>
+  function wfs() {
+ var url = 'http://routes.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/api/0.3/51.22545,4.40730,%5B51.22,4.41,51.2,4.41%5D,51.23,4.42/car.js?lang=de&units=miles&callback=getRoute';
+ var script = document.createElement('script');
+ script.type="text/javascript";
+ script.src=url;
+ document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function getRoute(response) {
+ alert(response);
+}
+  </script>
       <!-- Change UA-XXXXX-X to be your site's ID -->
       <!--<script>
          window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
