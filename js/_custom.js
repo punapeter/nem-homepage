@@ -41,6 +41,8 @@ $.i18n.init({
 		$('#buybox3').text($.t('buy.box3'));
 		$('#buybox3click').text($.t('buy.box3click'));
 
+		$('#8btcChat').i18n();
+
 		$('#faqheader').text($.t('faq.header'));
 		$('#faqreadfaq').text($.t('faq.readfaq'));
 		$('#faqreadfaq2').text($.t('faq.readfaq2'));

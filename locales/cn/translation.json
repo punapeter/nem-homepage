@@ -7,6 +7,7 @@
       "3": "<a href=\"comingSoon.html\">",
       "5": "<a href=\"#OS-supportContent\">",
       "6": "<a href=\"#how-harvestContent\">",
+      "8btcLink": "<a href=\"http://www.8btc.com/\">",
       "ieBitVer": "<a href=\"http://answers.microsoft.com/en-us/ie/forum/ie8-windows_other/version-of-ie-32-bit-or-64-bit-how-can-i-tell/75488de3-fffa-4782-be0a-c536c9a70151\">",
       "javaCheck": "<a href=\"https://www.java.com/en/download/installed.jsp\">",
       "javaWindowsM": "<a href=\"http://www.wikihow.com/Install-Java-on-Windows-8\">",
@@ -82,7 +83,8 @@
       "box3": "直接使用现金购买XEM",
       "box3click": "$t(app.coming)",
       "help": "购买XEM需要更多帮助？ $t(a.3) <span> 这里了解更多</span></a>",
-      "help2": "购买XEM需要更多帮助？ $t(a.3) <span><br>这里了解更多</span></a>"
+      "help2": "购买XEM需要更多帮助？ $t(a.3) <span><br>这里了解更多</span></a>",
+      "8btc": "$t(a.8btcLink) <span>8BTC</span></a> NEM Category"
    },
    "faq":{
       "header": "仍需帮助？",
@@ -104,7 +106,7 @@
       "resources3": "最终股东清单",
       "resources4": "NIS API",
       "resources5": "NCC API",
-      "resources6": "",
+      "resources6": "8BTC",
 
       "articles": "文章",
       "articles1": "NEM on Vice",
