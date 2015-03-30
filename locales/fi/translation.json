@@ -172,7 +172,7 @@
       "javaText": "Tarkista mikä Javan versio sinulla on asennettuna $t(a.javaCheck)TÄÄLTÄ</a>. Jos käytössäsi on Java version 8, update 25 tai uudempi, voit asentaa NEM Clientin.<br>Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion selaimesi version mukaan. Tietokoneen käyttöjärjestelmän tai prosessorin bittimäärällä ei ole tässä asiassa merkitystä. Selaimen bittiversion selvittämisestä oli aiemmin puhetta $t(a.5)täällä.</a>",
 
       "javaWindowsHead": "Javan asennus Windowsille",
-      "javaWindowsVideo": "Tästä löydät $t(app.tut)videon) Java 8:n asennuksesta Windows 8:lle. Vaikkakin videon ohjeet ovat tehty Java 7:lle, ne toimivat myös Java 8:n asennuksessa. Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion selaimesi version mukaan. Selaimen bittiversion selvittämisestä oli aiemmin puhetta $t(a.5)täällä.</a>",
+      "javaWindowsVideo": "Tästä löydät $t(app.tut)videon Java 8:n asennuksesta Windows 8:lle. Vaikkakin videon ohjeet ovat tehty Java 7:lle, ne toimivat myös Java 8:n asennuksessa. Kun valitset Javan bittiversiota (32- tai 64-bittinen), varmista, että valitset bittiversion selaimesi version mukaan. Selaimen bittiversion selvittämisestä oli aiemmin puhetta $t(a.5)täällä.</a>",
       "javaWindowsMan": "Löydät myös Wikihow:n ohjeen Java 8:n asennuksesta $t(a.javaWindowsM)TÄÄLTÄ</a>",
 
       "javaMacHead": "Javan asennus MAC OSX:lle",
