@@ -164,8 +164,8 @@
 
       "bitIntro": "Jos sinun täytyy asentaa Java, niin ensimmäiseksi sinun täytyy tarkistaa onko selaimesi 32- vai 64-bittinen. Huomioi, ettei 64-bittinen käyttöjärjestelmä ole sama asia kuin 64-bittinen selain.",
       "bitChrome": "Jos käytät Chromea, kirjoita <span>chrome://chrome</span> hakukenttään. Tältä sivulta näet, mitä Chromen versiota käytät. Jos sinulla on 64-bittinen Chrome, lukee se versionumeron lopussa, muussa tapauksessa sinulla on käytössä 32-bittinen Chrome.",
-      "bitFirefox": "Jos käytät Firefoxia, kirjoita <span>about:</span> selaimeesi. Tältä sivulta näet selaimesi tunnisteen. Jos näet tunnisteessa merkit "x86_64", käytät 64-bittistä Firefoxia. Jos taas näet merkit "i686", käytössäsi on 32-bittinen Firefox. Jos käytät Windowsia, sinulla on käytössä 32-bittinen Firefox, koska 64-bittistä Firefoxia ei ole vielä olemassa Windowsille.",
-      "bitOpera": "Jos käytät Operaa, kirjoita <span>opera:about</span> selaimeesi. Jos näet selaimen tunnisteessat merkit "x86_64", on selaimesi 64-bittinen. Jos taas näet merkit "i686", on selaimesi 32-bittinen.",
+      "bitFirefox": "Jos käytät Firefoxia, kirjoita <span>about:</span> selaimeesi. Tältä sivulta näet selaimesi tunnisteen. Jos näet tunnisteessa merkit \"x86_64\", käytät 64-bittistä Firefoxia. Jos taas näet merkit \"i686\", käytössäsi on 32-bittinen Firefox. Jos käytät Windowsia, sinulla on käytössä 32-bittinen Firefox, koska 64-bittistä Firefoxia ei ole vielä olemassa Windowsille.",
+      "bitOpera": "Jos käytät Operaa, kirjoita <span>opera:about</span> selaimeesi. Jos näet selaimen tunnisteessat merkit \"x86_64\", on selaimesi 64-bittinen. Jos taas näet merkit \"i686\", on selaimesi 32-bittinen.",
       "bitIE": "Internet Explorerin bittiversion selvittäminen voi olla hankalaa. Joitakin vinkkejä bittiversion selvittämiseen voit löytää $t(a.ieBitVer) TÄÄLTÄ</a>. Sinun pitäisi ottaa tämä merkkinä siitä, että sinun pitäisi ehkä siirtyä käyttämään jotakin toista edellä mainittua selainta.",
 
       "javaHeader": "Asennetaan Javaa",
@@ -191,7 +191,7 @@
       "install-nem-1":  "Lataa asentaja Windowsille tai Macille täältä $t(a.nemNinjaInstaller). Tämä asentaja toimii ainoastaan, jos sinulla on 64-bittinen Java asennettuna.",
       "install-nem-2": "Asennus:",
       "install-nem-3": "Lataa ja pura asennustiedosto täältä $t(a.nemNinjaInstaller)",
-      "install-nem-4": "Käynnistä purettu asennustiedosto ja seuraa ohjeita. (Macin käyttäjät saattavat joutua klikkaamaan asennustiedostoa hiiren oikealla näppäimellä ja valitsemaan "Avaa").",
+      "install-nem-4": "Käynnistä purettu asennustiedosto ja seuraa ohjeita. (Macin käyttäjät saattavat joutua klikkaamaan asennustiedostoa hiiren oikealla näppäimellä ja valitsemaan \"Avaa\").",
       "install-nem-alone-1": "Jos käytät 32-bittistä Javaa, lataa stand-alone client täältä $t(a.nemNinja).",
       "install-nem-alone-2": "Windows: Seuraa NEM-yhteisön tekemiä ohjeita $t(a.nemWindowsTut)$t(app.tut)</a>.",
       "install-nem-alone-3": "Mac: Seuraa NEM-yhteisön tekemiä ohjeita $t(a.nemMacTut)$t(app.tut)</a>.",
@@ -253,7 +253,7 @@
       "open-port-5": "Jos käytät Windowsia ja olet IPv4:ssä (mikä on todennäköisintä), avaa portti 7890 tuon ip-osoitteen kohdalta (ja kohdista liikenne sinne) reitittimestäsi ja tallenna muutokset. Macissa löydät ip-osoitteesi todennäköisimmin kohdasta <span>inet</span>.",
       "open-port-6": "Jos sinulla on käytössä dynaaminen ip-osoite, mikä on todennäköisintä, sinun täytyy tehdä hieman enemmän työtä jos haluat yhdistää NIS:iin ulkopuolelta. Toivoisimme, että dynamic dns on sinulle tuttu, ja että olet asentanut sen sille koneelle, missä NIS on myös käynnissä. Aloitusohjeena mene sivulle $t(a.noIp)no-ip.com</a> ja rekisteröi itsellesi tunnus. Tämän jälkeen lataa $t(a.noIpWin)the DUC</a> Windowsille (Jos käytät Mac:ia, paina $t(a.noIpMac)TÄSTÄ</a>, ja jos käytät Linuxia, paina $t(a.noIpLinux)TÄSTÄ</a>) ja asenna se sille koneelle, missä NIS on käynnissä. Lue ohje konfiguroinnista $t(a.noIpConfig)TÄÄLTÄ</a>",
       "open-port-7": "Ohjeen tarkkaan lukemalla sinun pitäisi pystyä yhdistämään NIS:iin LAN-verkkosi ulkopuolelta.",
-      "open-port-8": "Lopuksi mene NCC:n asetuksiin ja kirjoita NIS:n domain name ip-osoitteen sijasta. Sen pitäisi olla suurinpiirtein tällainen <span>xxx.ddns.net</span>, tämä on hostname, jonka olet konfiguroinut DUC:ssa. Jos löydät reitittimesi asetuksista kohdan "loopback in the port forwarding", laita rasti tähän ruutuun. Tämä mahdollistaa sen, että dynamic dns voi loopbackata NIS:iin milloin tahansa kun yhdistät osoitteeseen <span>xxx.ddns.net</span> LAN-verkostasi.",
+      "open-port-8": "Lopuksi mene NCC:n asetuksiin ja kirjoita NIS:n domain name ip-osoitteen sijasta. Sen pitäisi olla suurinpiirtein tällainen <span>xxx.ddns.net</span>, tämä on hostname, jonka olet konfiguroinut DUC:ssa. Jos löydät reitittimesi asetuksista kohdan \"loopback in the port forwarding\", laita rasti tähän ruutuun. Tämä mahdollistaa sen, että dynamic dns voi loopbackata NIS:iin milloin tahansa kun yhdistät osoitteeseen <span>xxx.ddns.net</span> LAN-verkostasi.",
       "open-port-9": "Lisätietoja reitittimistä ja niiden asetuksista voit löytää NEM:n keskustelualueelta:",
       "open-port-10": "Easy $t(a.easyConfig)configuration guide</a>.",
       "open-port-11": "Multiple modem $t(a.multiConfig)configuration guide</a>.",
