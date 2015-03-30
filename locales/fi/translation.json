@@ -205,8 +205,7 @@
       "exchange-guide": "Tästä löydät $t(a.exchangeGuide)$t(app.tut)en</a> keskustelualueellamme, joka opastaa miten voit ostaa XEM:iä Bitcoineilla.",
 
       "nccContent": "NCC on lyhennys sanoista NEM Community Client. Lyhyesti selitettynä se on lompakko, mutta emme kuitenkaan nimenneet sitä lompakoksi, koska se pystyy paljon muuhunkin kuin vain pelkkä lompakko.",
-      "nisContent": "NIS on lyhennys sanoista Network Infrastructure Server. NIS on osa NEM-verkkoa samalla tapaa kuin käyttäjät ovat osa p2p-verkkoa. Se varmistaa, että verkko ja 
-	  chain pysyvät koko ajan terveinä. NIS on sekä Web-, että ohjelmistopalvelin webarkkitehtuurissa. Se on kevyt, mutta silti tehokas palvelin. Jokainen NCC voi käyttää NIS:tä siirtojen tekemiseen. Voit asettaa NIS:n tehtäväksi louhia NCC:n kautta ilman, että paljastaisit itsesi koko verkolle.",
+      "nisContent": "NIS on lyhennys sanoista Network Infrastructure Server. NIS on osa NEM-verkkoa samalla tapaa kuin käyttäjät ovat osa p2p-verkkoa. Se varmistaa, että verkko ja lohkoketju pysyvät koko ajan terveinä. NIS on sekä Web-, että ohjelmistopalvelin webarkkitehtuurissa. Se on kevyt, mutta silti tehokas palvelin. Jokainen NCC voi käyttää NIS:tä siirtojen tekemiseen. Voit asettaa NIS:n tehtäväksi louhia NCC:n kautta ilman, että paljastaisit itsesi koko verkolle.",
 
       "nis-or-ncc-mem": "Muistia: 768 MB RAM",
       "nis-or-ncc-cpu": "Prosessori: 700 MHz",
